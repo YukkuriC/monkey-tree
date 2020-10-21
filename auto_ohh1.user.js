@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         0hh1求解器
 // @namespace    https://greasyfork.org/users/471937
-// @version      0.1
+// @version      0.1.1
 // @description  根据游戏规则与回溯法自动求解0h h1盘面
 // @author       油油
 // @match        0hh1.com/
@@ -135,11 +135,4 @@
             else cached.forEach(x => x.value = 0)// reverse
         }
     }
-
-    function entry() {
-        backtracking()
-        Game.checkForLevelComplete()
-    }
-
-    window.brute = entry
 })();

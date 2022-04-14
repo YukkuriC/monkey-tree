@@ -6,6 +6,7 @@
 // @author       油油
 // @match        0hn0.com/
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {

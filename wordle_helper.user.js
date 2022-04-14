@@ -7,6 +7,7 @@
 // @match        https://www.ssynth.co.uk/~gay/cgi-bin/nph-wf*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=ssynth.co.uk
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {

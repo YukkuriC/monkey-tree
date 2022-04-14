@@ -7,6 +7,7 @@
 // @match        */*
 // @icon         https://screeps.com/a/icon.png
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {

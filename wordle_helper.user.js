@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Andy's WORDLE Finder
 // @namespace    https://greasyfork.org/users/471937
-// @version      0.1
+// @version      0.2
 // @description  adds simple filters for wordle support
 // @author       You
 // @match        https://www.ssynth.co.uk/~gay/cgi-bin/nph-wf*
@@ -111,7 +111,8 @@
         var res = []
         for (var w of pool.innerText.split('\n')) {
             if (w.length == 0) continue
-            if (crit(w)) res.push(w)
+            var w1 = sort_word(w)
+            if (crit(w1)) res.push(w)
         }
         pool.innerText = res.join('\n') + '\n'
     }

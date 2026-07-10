@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         fuck adblock sticker
+// @name         fuck bilibili adblock sticker
 // @namespace    https://github.com/YukkuriC
 // @version      2024-07-15
 // @description  李旎我日你血妈
